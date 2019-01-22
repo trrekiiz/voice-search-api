@@ -1,0 +1,19 @@
+[debug] [2019-01-11T04:31:02.607Z] ----------------------------------------------------------------------
+[debug] [2019-01-11T04:31:02.611Z] Command:       /usr/local/Cellar/node/11.6.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-01-11T04:31:02.611Z] CLI Version:   6.2.2
+[debug] [2019-01-11T04:31:02.611Z] Platform:      darwin
+[debug] [2019-01-11T04:31:02.611Z] Node Version:  v11.6.0
+[debug] [2019-01-11T04:31:02.613Z] Time:          Fri Jan 11 2019 11:31:02 GMT+0700 (Indochina Time)
+[debug] [2019-01-11T04:31:02.613Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-11T04:31:02.626Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-11T04:31:02.627Z] > authorizing via signed-in user
+[debug] [2019-01-11T04:31:02.627Z] [iam] checking project aofs-project for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get"]
+[debug] [2019-01-11T04:31:02.629Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/aofs-project:testIamPermissions  
+
+[debug] [2019-01-11T04:31:04.007Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'aofs-project'...
+[info] 
+[info] i  deploying firestore, functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
